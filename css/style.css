@@ -1,0 +1,126 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  header .middle {
+    display: none;
+  }
+  header .search {
+    display: none;
+  }
+  header .menu {
+    display: inline !important;
+  }
+  header .general2 {
+    display: none;
+  }
+  main #first{
+    background-color: white!important;
+
+  }
+  main #first .phoneReverse {
+    flex-direction: column-reverse;
+  }
+  main #first .phoneReverse .phone {
+    text-align: center;
+    padding-top: 4rem;
+    background-color: #e8ecf1;
+  }
+}
+header .general1 {
+  padding: 1rem 0rem;
+}
+header .general1 .menu {
+  display: none;
+}
+header .general1 img {
+  width: 100%;
+}
+header .general1 a {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(46, 49, 49);
+  padding-right: 1rem;
+}
+header .general1 .bold {
+  font-weight: bold;
+}
+header .general1 .search {
+  border: 1px solid rgb(243, 81, 101);
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 0.3rem;
+}
+header .general1 i {
+  color: rgb(243, 81, 101);
+}
+header .general1 .location span {
+  padding-left: 0.5rem;
+}
+header .general2 {
+  padding: 1.5rem 0;
+  background-color: #e8ecf1;
+}
+header .general2 .left a {
+  border: 1px solid rgb(243, 81, 101);
+  background-color: rgb(243, 81, 101);
+  padding: 2px 15px;
+  border-radius: 0.3rem;
+  color: white;
+}
+header .general2 ul {
+  display: flex;
+  margin: 0;
+}
+header .general2 ul li {
+  padding-right: 3rem;
+}
+header .general2 ul li a {
+  color: rgb(46, 49, 49);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main #first {
+  margin-top: 2px;
+  background-color: #e8ecf1;
+}
+main #first img {
+  width: 100%;
+}
+main #first h2 {
+  font-size: 34px;
+  font-weight: 400;
+  color: rgb(46, 49, 49);
+}
+main #first .scnd {
+  margin-bottom: 2rem;
+}
+main #first p {
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  color: white;
+  border: 1px solid rgb(243, 81, 101);
+  background-color: rgb(243, 81, 101);
+  padding: 10px 80px;
+  border-radius: 0.3rem;
+}
+main #first p:hover{
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  color: white;
+  border: 1px solid rgb(243, 81, 101);
+  background-color: rgb(231, 50, 72);
+  padding: 10px 80px;
+  border-radius: 0.3rem;
+}
+/*# sourceMappingURL=style.css.map */

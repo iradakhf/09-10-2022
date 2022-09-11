@@ -1,0 +1,30 @@
+@media(max-width:576px){
+    header{
+        .middle{
+           display: none;
+        }
+        .search{
+            display: none;
+        }
+        .menu{
+            display: inline!important;
+        }
+        .general2{
+            display: none;
+        }
+    }
+   main{
+    #first{
+        background-color: white;
+        .phoneReverse{
+            .phone{
+                text-align: center;
+                background-color: $third_color;
+                padding-top: 5rem;
+            }
+            
+          flex-direction: column-reverse;
+        }
+    }
+   }
+}
